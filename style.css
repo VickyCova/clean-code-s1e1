@@ -17,7 +17,7 @@ body {
   width: 100%;
 }
 
-.header .more-info {
+.header .header-more-info {
   font-family: fantasy, cursive;
 }
 
@@ -29,7 +29,7 @@ body {
 
 }
 
-.menu {
+.menu-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -80,7 +80,7 @@ button {
 
 /* Heading */
 
-.section__title {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -109,7 +109,7 @@ input[type="text"]:focus {
 
 /* New Task */
 
-.title__new-task {
+.title-new-task {
   display: block;
   margin: 0 0 20px;
 }
