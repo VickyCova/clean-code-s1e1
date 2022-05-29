@@ -27,7 +27,7 @@
     <section class="todo-block"> 
       <h3 class="title todo">Todo</h3>
       <ul class="navigation-menu" id="incomplete-tasks">
-        <li class="navigation-menu-pay"><input type="checkbox">
+        <li class="navigation-menu-pay checkbox-task"><input type="checkbox">
           <label class="task todo">Pay Bills</label>
           <input class="text-input todo" type="text">
           <button class="edit">Edit</button>
@@ -36,9 +36,9 @@
           </button>
         </li>
         <li class="edit-mode navigation-menu-shopping">
-          <input type="checkbox">
+          <input class="checkbox-task" type="checkbox">
           <label class="task">Go Shopping</label>
-          <input class="text-input task" type="text" value="Go Shopping" class="task">
+          <input class="text-input task" type="text" value="Go Shopping">
           <button class="edit">Save</button>
           <button class="delete">
             <img src="./remove.svg" alt="Delete button icon">
@@ -49,9 +49,9 @@
     <section class="completed-block"> 
       <h3 class="title completed">Completed</h3>
       <ul id="completed-tasks">
-        <li><input type="checkbox" checked>
+        <li><input class="checkbox-task" type="checkbox" checked>
           <label class="task">See the Doctor</label>
-          <input class="text-input task" type="text" class="task">
+          <input class="text-input task" type="text">
           <button class="edit">Edit</button>
           <button class="delete">
             <img src="./remove.svg" alt="Delete button icon">
